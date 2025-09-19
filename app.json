@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "movie_app_z",
-    "slug": "movie_app_z",
+    "slug": "movieapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c59d9680-9baf-4d2e-a8db-50f7e602cb7b"
+      }
+    },
+    "owner": "renzo_ke"
   }
 }
